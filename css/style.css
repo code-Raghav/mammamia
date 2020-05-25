@@ -394,7 +394,7 @@ nav > a:hover::after{
 }
 /* --------------------------- /////////// VII. CTA SECTION /////////// --------------------------- */
 #cta-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/h.jpg);
 }
 #cta-section ul {
     margin: 0;
