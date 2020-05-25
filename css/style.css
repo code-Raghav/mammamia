@@ -481,6 +481,9 @@ nav > a:hover::after{
     width: 90%;
     margin: 0 0 25px 0;
 }
+.dlc-card img:hover{
+    transform: scale(1.2);
+}
 .dlc-card .button {
     background: none;
     border: 2px solid #FFF;
