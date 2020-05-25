@@ -263,7 +263,7 @@ nav > a{
 }
 
 nav > a:hover{
-    color: #1e90ff;
+    color: #FFFF33;
 }
 
 nav > a:hover::after{
