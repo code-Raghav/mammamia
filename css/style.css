@@ -717,6 +717,8 @@ input {
     animation-duration: 2s; 
     animation-delay: 2s;
     visibility: hidden;
+    font-family: Raleway;
+    font-weight: 400;
   }
 
   #link1,#link2,#link3,#link4{
