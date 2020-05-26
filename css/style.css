@@ -703,32 +703,40 @@ input {
 }
 
   /* Animation using animate library */
-  .head_section1 {
+  #head_section1 {
     display: inline-block;
-  
+    visibility: hidden;
     animation: bounce;
     animation-duration: 2s; 
+    animation-delay: 3s;
   }
 
-  .text_section1 {
+  #text_section1 {
   
     animation: bounceInUp;
     animation-duration: 2s; 
+    animation-delay: 2s;
+    visibility: hidden;
+    font-family: Raleway;
+    font-weight: 400;
   }
 
   #link1,#link2,#link3,#link4{
-
+    visibility: hidden;
     animation: backInRight;
     animation-duration: 2s; 
+    animation-delay: 2s;
   }
 
   #main-logo{
-
+    visibility: hidden;
     animation: fadeIn;
+    animation-delay: 2s;
     animation-duration: 3s;  
   }
 
   #headerVideoLink{
+    visibility: hidden;
     animation: fadeIn;
     animation-duration: 4s;  
   }
@@ -747,3 +755,18 @@ input {
 
   }
 
+    font-family: Raleway;
+    animation-delay: 2s;
+  }
+  #headerVideoLink:hover{
+    font-family: Raleway;
+    background-color: #F7931E;
+    color: black
+  }
+
+  #reviewimg{
+    visibility: hidden;
+    animation: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 3s;  
+  }

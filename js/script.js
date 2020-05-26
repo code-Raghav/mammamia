@@ -20,6 +20,36 @@ $(document).ready(function () {
         };
     };
 
+    //animation delay for loading screen    
+    setTimeout(function () {
+        $('#head_section1').css('visibility', 'visible')
+    }, 3000);
+    //navlinks
+    setTimeout(function () {
+        $('#link1').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#link2').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#link3').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#link4').css('visibility', 'visible')
+    }, 2000);
+
+    setTimeout(function () {
+        $('#text_section1').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#main-logo').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#reviewimg').css('visibility', 'visible')
+    }, 2000);
+    setTimeout(function () {
+        $('#headerVideoLink').css('visibility', 'visible')
+    }, 2000);
 
     // SMOOTH SCROLLING TO ANCHORS
     $('a[href*=\\#]:not([href=\\#]):not(.control-right, .control-left)').on('click', function () {
