@@ -394,7 +394,8 @@ nav > a:hover::after{
 }
 /* --------------------------- /////////// VII. CTA SECTION /////////// --------------------------- */
 #section4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background4.jpg);
+    background-attachment: fixed;
 }
 #section4 ul {
     margin: 0;
@@ -496,7 +497,7 @@ nav > a:hover::after{
     color: #222;
 }
 .dlc-features {
-    text-align: left;
+    text-align: center;
     color: #999;
     padding: 0 10%;
 }
@@ -696,6 +697,7 @@ input {
     #footer-extra .col-md-4 {
         margin-bottom: 2em;
         text-align: center;
+        height: 200px;
     }
     #footer-extra .row:first-child {
         padding: 40px 0 20px 0;
