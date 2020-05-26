@@ -746,6 +746,7 @@ input {
 
 
   .flex-cont{
+    padding: 20px;
     display: flex;
     background-image: url(/images/b3.jpg);
   }
