@@ -737,11 +737,13 @@ input {
 
   .flex-cont{
     display: flex;
-    background-color: ;
+    background-image: url(/images/b3.jpg);
   }
   
-  .flex-container > blockquote {
+  .flex-cont > blockquote {
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
+    
+
   }
+
