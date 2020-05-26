@@ -762,6 +762,7 @@ input {
     padding: 20px;
     padding-left:400px;
     
+    
   }
   
   #headerVideoLink:hover{
@@ -854,5 +855,4 @@ input {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 
