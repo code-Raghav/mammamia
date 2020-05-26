@@ -739,6 +739,22 @@ input {
     visibility: hidden;
     animation: fadeIn;
     animation-duration: 4s;  
+  }
+
+
+
+  .flex-cont{
+    display: flex;
+    background-image: url(/images/b3.jpg);
+  }
+  
+  .flex-cont > blockquote {
+    margin: 10px;
+    padding: 20px;
+    
+
+  }
+
     font-family: Raleway;
     animation-delay: 2s;
   }
