@@ -367,7 +367,6 @@ nav > a:hover::after{
     background-color: #080808;
     border-left: 5px solid rgb(238, 199, 63);
     border-top: 5px solid rgb(238, 199, 63);
-    border-bottom: 5px solid rgb(238, 199, 63);
 }
 #feature-2box-1{
     background-image: url(../images/b3.jpg);
@@ -398,6 +397,26 @@ nav > a:hover::after{
 #feature-3 {
     background-image: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0) 100%), url(../images/b4.jpg);
     background-attachment: fixed;
+    border: 5px solid rgb(238, 199, 63);
+    height: 90vh;
+    padding: 20vh 0;
+
+}
+
+#feature-3 h2{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.5;
+}
+#feature-3 u{
+    font-family: Raleway;
+    font-size: 30px;
+}
+#feature-3 ol{
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 #feature-1 h2{
@@ -840,11 +859,19 @@ input {
   * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container1 {
   max-width: 1280px;
   position: relative;
   margin: auto;
+  
+
 }
+.slideshow-container{
+    max-width: 1280px;
+    position: relative;
+    margin: auto;
+  
+  }
 
 /* Hide the images by default */
 .mySlides {
