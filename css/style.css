@@ -781,7 +781,7 @@ input {
     font-weight: 400;
   }
 
-  #link1,#link2,#link3,#link4,#link5, #link6{
+  #link1,#link2,#link3,#link4,#link5,#link6{
     visibility: hidden;
     animation: backInRight;
     animation-duration: 2s; 
