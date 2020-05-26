@@ -408,9 +408,11 @@ nav > a:hover::after{
     font-size: 36px;
     line-height: 1.5;
 }
-#feature-3 u{
+#feature-3 u h2{
     font-family: Raleway;
     font-size: 30px;
+    padding-bottom: 2px;
+    text-decoration: underline;
 }
 #feature-3 ol{
     font-family: Raleway;
