@@ -251,7 +251,7 @@ nav{
     padding: 0 25vw 0 25vw;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     box-sizing: unset;
 }
 
