@@ -11,6 +11,7 @@ $(document).ready(function () {
             document.getElementById("link3").style.paddingTop = "30px"
             document.getElementById("link4").style.paddingTop = "30px"
             document.getElementById("link5").style.paddingTop = "30px"
+            document.getElementById("link6").style.paddingTop = "30px"
         } else {
             document.querySelector("#navbar").style.backgroundColor = "rgba(0, 0, 0, 0.9)";
             document.querySelector("header").style.height = "60px"
@@ -19,6 +20,7 @@ $(document).ready(function () {
             document.getElementById("link3").style.paddingTop = "20px"
             document.getElementById("link4").style.paddingTop = "20px"
             document.getElementById("link5").style.paddingTop = "20px"
+            document.getElementById("link6").style.paddingTop = "20px"
             
         };
     };
