@@ -757,6 +757,12 @@ input {
     
   }
 
+  .flex-cont > iframe {
+    margin: 10px;
+    padding: 20px;
+    padding-left:400px;
+    
+  }
   
   #headerVideoLink:hover{
     font-family: Raleway;
