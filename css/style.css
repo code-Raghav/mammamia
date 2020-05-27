@@ -239,6 +239,10 @@ button {
     
 }
 
+#main-logo:hover{
+    transform: scale(1.05);
+}
+
 .logo-div{
     z-index: 2001 ;
 }
