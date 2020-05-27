@@ -443,10 +443,36 @@ nav > a:hover::after{
     padding-bottom: 40px;
 }
 /*correct size for mobiles */
-@media (max-width : 1380px) {
+@media (max-width : 1000px) {
     #feature-2 {  
         display: grid;
         grid-template-columns: 0fr 1fr;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    #f2b2{
+        margin-left: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    #f2b2 h2{ 
+        font-size: 3.125rem;
+        line-height: 1.5;
+    }
+    #f2b2 p{ 
+        font-size: 2rem;
+        line-height: 0.5;
+    }
+    #f2b2 li{ 
+        padding-bottom: 30px;
+    }
+}
+@media (max-width : 1380px){
+    #feature-2 {  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         height: 100vh;
         overflow: hidden;
     }
