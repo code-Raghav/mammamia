@@ -443,7 +443,7 @@ nav > a:hover::after{
     padding-bottom: 40px;
 }
 /*correct size for mobiles */
-@media (max-width : 1280px) {
+@media (max-width : 1380px) {
     #feature-2 {  
         display: grid;
         grid-template-columns: 0fr 1fr;
@@ -498,7 +498,7 @@ nav > a:hover::after{
     text-align: justify;
 }
 
-@media (max-width : 1280px) {
+@media (max-width : 1380px) {
     #feature-3 {
         height: 90vh;
         padding: 5vh 0;
