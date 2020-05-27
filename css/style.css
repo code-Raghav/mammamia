@@ -949,13 +949,34 @@ input {
   
 
 }
+
 .slideshow-container{
     max-width: 1000px;
     position: relative;
     margin: auto;
     height: 25vh
   
-  }
+}
+
+@media (max-width : 1380px){
+    .slideshow-container1 {
+        max-width: 893px;
+        position: relative;
+        margin: auto;
+        
+      
+      }
+      
+      .slideshow-container{
+          max-width: 650px;
+          position: relative;
+          margin: auto;
+          height: 25vh
+        
+      }
+      
+
+}
 
 .mySlides {
   display: none;
