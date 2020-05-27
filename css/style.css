@@ -957,7 +957,6 @@ input {
     height: 30vh
   
 }
-
 @media (max-width : 1380px){
     .slideshow-container1 {
         max-width: 893px;
@@ -974,9 +973,8 @@ input {
           height: 32vh
         
       }
-      
+    }
 
-}
 
 .mySlides {
   display: none;
