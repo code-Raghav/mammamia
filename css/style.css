@@ -967,7 +967,7 @@ input {
       }
       
       .slideshow-container{
-          max-width: 650px;
+          max-width: 1000px;
           position: relative;
           margin: auto;
           height: 32vh
