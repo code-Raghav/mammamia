@@ -243,6 +243,11 @@ button {
     z-index: 2001 ;
 }
 
+
+.logo-div{
+    z-index: 2001 ;
+}
+
 @media (max-width : 800px){
     .logo-div{
         display: none;
@@ -922,6 +927,18 @@ input {
     animation-delay: 2s;
     animation-duration: 3s;  
   }
+
+  #spoti{
+    z-index : 20;
+    position: fixed;
+    animation: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 3s; 
+    margin-top: 16.5%;
+    margin-left: 0.5%; 
+  }
+
+
 
   #headerVideoLink{
     visibility: hidden;
