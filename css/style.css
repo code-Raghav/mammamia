@@ -614,7 +614,7 @@ nav > a:hover::after{
 .modal-expand {
     cursor: pointer;
     color: #eec73f;
-    font-family: Raleway;
+    font-family: Raleway ;
 }
 .modal-content {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
