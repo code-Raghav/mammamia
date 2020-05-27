@@ -101,12 +101,6 @@ $(document).ready(function () {
     $window.on('scroll resize', check_if_in_view);
     $window.trigger('scroll');
 
-    // LIGHTBOX OPTIONS
-    lightbox.option({
-        'resizeDuration': 400,
-        'imageFadeDuration': 400,
-        'wrapAround': true
-    });
 
     // NEWSLETTER SIGNUP SCRIPTS
     $("#newsletter").validator().on("submit", function (event) {

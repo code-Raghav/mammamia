@@ -192,6 +192,11 @@ button {
     top: 48%;
 }
 
+
+
+
+
+
 /* -Loading Screen Animation- */
 .loaded {
     -moz-transform: translate3d(0px, -100%, 0px);
@@ -224,7 +229,7 @@ button {
         top: 30%;
     }
 }
-/* --------------------------- /////////// II. HEADER AND NAVIGATION /////////// --------------------------- */
+
 #main-logo {
     text-decoration: none;
     z-index: 2000;
@@ -271,7 +276,7 @@ nav > a:hover::after{
     display: block;
     line-height: 0.3
 }
-/* --------------------------- /////////// III. HERO SECTION /////////// --------------------------- */
+
 .hero-unit {
     position: relative;
 }
@@ -336,7 +341,7 @@ nav > a:hover::after{
     }
 }
 
-/* --------------------------- /////////// IV. ABOUT SECTION /////////// --------------------------- */
+
 #section2 {
     height: 100%;
     padding: 0;
@@ -386,12 +391,12 @@ nav > a:hover::after{
 
 #f2b2 h2{ 
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125ren;
     line-height: 4;
 }
 #f2b2 p{ 
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 1.3;
 }
 #feature-3 {
@@ -405,34 +410,34 @@ nav > a:hover::after{
 
 #feature-3 h2{
     font-family: Raleway;
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 1.5;
 }
 #feature-3 u h2{
     font-family: Raleway;
-    font-size: 30px;
+    font-size: 1.875rem;
     padding-bottom: 2px;
     text-decoration: underline;
 }
 #feature-3 ol{
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
 }
 
 #feature-1 h2{
     font-family: Raleway;
-    font-size: 50px;
+    font-size: 3.125px;
     line-height: 1.5;
 }
 #feature-1 h3{
     font-family: Raleway;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 #feature-1 p{
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
 }
@@ -639,7 +644,7 @@ input {
         margin: 20px 0;
     }
 }
-/* --------------------------- /////////// FOOTER /////////// --------------------------- */
+
 #footer {
     width: 100%;
     min-height: 50px;
@@ -679,7 +684,7 @@ input {
     color: #AAA;
     text-decoration: underline;
 }
-/* --------------------------- /////////// EXTRA PAGES /////////// --------------------------- */
+
 .extra-page {
     font-size: 0.875rem;
 }
@@ -772,7 +777,7 @@ input {
 .form-container {
     padding-top: 2em;
 }
-/* -RESPONSIVE STYLES- */
+
 @media (max-width : 991px) {
     #footer-extra .col-md-4 {
         margin-bottom: 2em;
@@ -784,7 +789,6 @@ input {
     }
 }
 
-  /* Animation using animate library */
   #head_section1 {
     display: inline-block;
     visibility: hidden;
@@ -861,7 +865,7 @@ input {
 
   * {box-sizing:border-box}
 
-/* Slideshow container */
+
 .slideshow-container1 {
   max-width: 1280px;
   position: relative;
@@ -877,12 +881,11 @@ input {
   
   }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
