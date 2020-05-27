@@ -1106,9 +1106,12 @@ input {
     width: inherit;
     overflow: hidden;
 }
-.modelbox iframe{
-    height: 300px
+@media (max-width : 1380px){
+    .modelbox iframe{
+        height: 300px
+    }
 }
+
 .modelboximg img{
    height: auto;
    width: 100%;
