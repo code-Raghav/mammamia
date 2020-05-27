@@ -921,6 +921,10 @@ input {
     animation-delay: 2s;
   }
 
+  #link1{
+      margin-left: 20%;
+  }
+
   #main-logo{
     visibility: hidden;
     animation: fadeIn;
