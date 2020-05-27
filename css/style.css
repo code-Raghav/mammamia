@@ -609,6 +609,7 @@ nav > a:hover::after{
 .main-features {
     list-style: circle;
     padding-left: 30px;
+    
 }
 /* Modal */
 .modal-expand {
@@ -1120,6 +1121,7 @@ input {
     height: 60vh;
     width: 100%;
 }
+
 
 #mymod{
     height: 100%;
