@@ -613,7 +613,8 @@ nav > a:hover::after{
 /* Modal */
 .modal-expand {
     cursor: pointer;
-    color: #777;
+    color: #eec73f;
+    font-family: Raleway;
 }
 .modal-content {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
@@ -1132,3 +1133,4 @@ input {
 
     
 }
+
