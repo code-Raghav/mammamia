@@ -1110,8 +1110,9 @@ input {
 
 .modelboximg img{
    height: 71%;
-   width: 100%;
+   width: 80%;
    background-position: center;
+   float:right;
 }   
 .modelboximg{
     height: 60vh;
